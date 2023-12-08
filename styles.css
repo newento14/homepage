@@ -5,8 +5,8 @@
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.5;
+	font-family: 'Montserrat', sans-serif;
 
 	--primary-text-color: #181820;
 	--secondary-text-color: #5c5c62;
@@ -153,6 +153,7 @@ body {
 
 .intro_text {
 	color: var(--secondary-text-color);
+	font-size: 18px;
 	text-align: justify;
 }
 
