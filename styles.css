@@ -5,8 +5,8 @@
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.5;
+	font-family: 'Montserrat', sans-serif;
 
 	--primary-text-color: #181820;
 	--secondary-text-color: #5c5c62;
@@ -66,7 +66,8 @@ body {
 		margin-right: 0;
 	}
 }
-Contact info styles .contact-info__header,
+
+.contact-info__header,
 .contact-info__sub-header {
 	text-align: center;
 }
@@ -86,7 +87,7 @@ Contact info styles .contact-info__header,
 .contact-info__block {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: start;
 }
 
 .contact-info__block--center {
@@ -152,13 +153,13 @@ Contact info styles .contact-info__header,
 
 .intro_text {
 	color: var(--secondary-text-color);
+	font-size: 18px;
 	text-align: justify;
 }
 
 .skills__header {
 	color: var(--secondary-text-color);
 	text-align: center;
-	margin-bottom: 15px;
 }
 
 .skills__text {
@@ -258,4 +259,30 @@ Contact info styles .contact-info__header,
 
 .additional-info__languages-item {
 	color: var(--secondary-text-color);
+}
+
+.skills_group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+}
+
+.skills__icon {
+	height: 2rem;
+	vertical-align: text-bottom;
+	transition: all 0.25s ease-in-out;
+}
+
+.skills__icon:hover {
+	scale: 1.11;
+}
+
+.skills__title {
+	text-align: center;
+	margin-bottom: 12px;
+	margin-top: 22px;
+	font-size: 22px;
+	font-weight: 600;
 }
