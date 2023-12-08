@@ -160,7 +160,6 @@ body {
 .skills__header {
 	color: var(--secondary-text-color);
 	text-align: center;
-	margin-bottom: 15px;
 }
 
 .skills__text {
@@ -260,4 +259,24 @@ body {
 
 .additional-info__languages-item {
 	color: var(--secondary-text-color);
+}
+
+.skills_group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+}
+
+.skills__icon {
+	height: 2.1428rem;
+	vertical-align: text-bottom;
+}
+
+.skills__title {
+	text-align: center;
+	margin-bottom: 12px;
+	margin-top: 22px;
+	font-size: 22px;
+	font-weight: 600;
 }
